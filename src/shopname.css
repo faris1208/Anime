@@ -1,6 +1,4 @@
 .shopname-container{
-    /* background-color: rgb(209,69,82); */
-    /* color: white; */
     width: 100%;
     max-width: 430px;
     font-family: RobotoRegular;
@@ -389,8 +387,9 @@ footer{
     .shopname-container{
         width: 100%;
         max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin: 0px auto;
     }
 
     .shopname-wrapper{
