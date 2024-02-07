@@ -1,0 +1,792 @@
+.shopname-container{
+    /* background-color: rgb(209,69,82); */
+    /* color: white; */
+    width: 100%;
+    max-width: 430px;
+    font-family: RobotoRegular;
+}
+
+.shopname-wrapper{
+    /* background: linear-gradient(83.82deg, #9F273B 31.4%, rgba(0, 0, 0, 0) 95.51%); */
+    background: linear-gradient(89.99deg, #DD4854 0.01%, #1A1534 111.84%);
+    ;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 10px;
+    gap: 50px;
+}
+
+.shopname-heading{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.shopname-heading h1{
+    font-family: AntiquaRegular;
+    font-size: 15px;
+    color: #fff;
+}
+
+.shopname-in{
+    position: relative;
+}
+
+.shopname-in input::placeholder{
+    padding: 0px 0px 0px 50px;
+    color: #CB9AA4;
+}
+
+.search{
+    position: absolute;
+    top: 5px ;
+    left: 10px;
+    color: #CB9AA4;
+   
+}
+
+.shopname-input{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 2px 10px;
+    width: 100%;
+    font-size: 15px;
+    font-family: InterRegular;
+    color: #fff;
+}
+
+.hamburger{
+    display: block;
+}
+
+.burger{
+    font-size: 22px;
+    color: #fff;
+}
+
+.navbar{
+    display: none;
+}
+
+.anime{
+    width: 100%;
+    /* background-image: url(/src/components/images/Rectangle\ 27.svg); */
+    /* height: 400px; */
+    margin-top: 10px;
+    position: relative;
+    /* border: 2px solid green; */
+}
+
+.wallet{
+    width: 50%;
+    padding: 15px ;
+    position: absolute;
+    top: 35px;
+}
+
+.wallet h2{
+    font-family: InriaRegular;
+    font-size: 15px;
+    color: #F9F2F2;
+    font-weight: 400;
+    line-height: 20px;
+    /* letter-spacing: 2px; */
+}
+
+.anime-button{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime-contents{
+    width: 80%;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 10px;
+    gap: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.anime-contents p{
+    font-family: InterRegular;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.check-square{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    /* border: 1px solid blue; */
+}
+
+.check-square p{
+    font-family: InterRegular;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.square{
+    background-color: #833B43;
+    color: #DD4854;
+    border-radius: 5px;
+    font-size: 15px;
+    /* margin-top: 10px; */
+}
+
+.call{
+    background-color: #833B43;
+    color: #DD4854;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.phonecall{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    /* border: 2px solid blue; */
+}
+
+.phonecall p{
+    font-family: InterRegular;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.jewelries-container{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 0px 50px;
+}
+
+.jewelries-wrapper{
+    margin-top: 15px;
+}
+
+.jewelries-contents{
+    /* border: 2px solid green; */
+    width: 100%;
+    /* margin: 10px 0px; */
+}
+
+.jewelries-jewelries{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding:0px 10px;
+}
+
+.jewelries-jewelries h3{
+    font-family: InterBold;
+    font-size: 15px;
+    font-weight: 900;
+    color: #000;
+}
+
+.jewelries-down{
+    cursor: pointer;
+}
+
+.jewelries-heading{
+    background: #F8DADD;
+    display: flex;
+    border-radius: 10px ;
+    padding: 10px 15px 10px 10px;
+    height: 100%;
+    gap: 15px;
+    /* min-height: 200px; */
+}
+
+
+.jewelries-heading1{
+    display: none;
+}
+
+.ring-image{
+    width: 100%;
+    /* height: 100%; */
+    /* min-height: 200px; */
+}
+
+.jewlries-new-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.jewelries-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 10px;
+}
+
+.jewelries-text p{
+    font-family: InterRegular;
+    font-size: 12px;
+    font-weight: 600;
+    color: #635758;
+}
+
+.jewelries-text h4{
+    font-family: InterRegular;
+    font-size: 14px;
+    font-weight: 900;
+    color: #000;
+}
+
+.img-seven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.image-seven{
+    width: 8%;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    background-image: url(/src/components/images/Rectangle\ 29.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px 20px 20px 10px;
+}
+
+.footer-container h3{
+    font-family: AntiquaRegular;
+    font-size: 16px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    margin-top: 10px;
+}
+
+/* .footer-service{
+    border-right: 2px solid green;
+} */
+
+.footer-service p{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #C3C7C7;
+    margin:0px 0px 8px 0px;
+}
+
+.footer-about{
+    border-left: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+    padding: 0px 0px 0px 25px ;
+}
+
+.footer-about h3{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    margin:0px 0px 8px 0px;
+    letter-spacing: 0.46px;
+}
+
+.footer-about p{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #C3C7C7;
+    margin: 1px 0px;
+}
+
+.footer-money{
+    display: none;
+}
+
+.footer-internatinal{
+    border-left:1px solid gray;
+    padding: 0px 0px 0px 15px;
+}
+
+
+.footer-internatinal h3{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    margin:0px 0px 8px 0px;
+    letter-spacing: 0.46px;
+}
+
+.footer-internatinal p{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #C3C7C7;
+    margin: 1px 0px;
+}
+
+.more{
+    display: none;
+}
+
+
+.footer-follow h4{
+    font-family: InterRegular;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0.86px;
+    font-weight: 500;
+    /* margin: 1px 0px; */
+    margin-bottom: 10px;
+}
+
+.footer-facebook{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 4px 0px;
+}
+
+.facebook{
+    font-size: 25px;
+    color: #1877F2;
+    /* background: #FFF; */
+}
+
+.youtube{
+    font-size: 25px;
+    color: #91030C;
+    /* background: #FFF; */
+}
+
+.footer-facebook p{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0.56px;
+    font-weight: 500;
+    
+}
+
+
+
+@media (min-width:880px) {
+    .shopname-container{
+        /* background-color: rgb(209,69,82); */
+        /* color: white; */
+        width: 100%;
+        max-width: 1440px;
+        font-family: RobotoRegular;
+    }
+
+    .shopname-wrapper{
+        /* background: linear-gradient(83.82deg, #9F273B 31.4%, rgba(0, 0, 0, 0) 95.51%); */
+        /* background: linear-gradient(83.82deg, #9F273B 31.4%, rgba(175, 19, 19, 0) 99.51%); */
+        background: linear-gradient(89.99deg, #DD4854 0.01%, #1A1534 111.84%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid red;
+        padding: 20px 40px;
+        gap: 40px;
+    }
+
+    .shopname-heading{
+        /* border: 2px solid green; */
+        width: 60%;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .shopname-heading h1{
+        font-size: 22px;
+        font-family: AntiquaRegular;
+        color: #fff;
+    }
+
+    .shopname-in{
+        position: relative;
+        width: 100%;
+    }
+    
+    .shopname-in input::placeholder{
+        padding: 0px 0px 0px 80px;
+        color: #CB9AA4;
+    }
+    
+    .search{
+        font-size: 25px;
+        position: absolute;
+        top: 11px ;
+        left: 13px;
+        color: #fff;
+        font-weight: 600;
+    }
+    
+    .shopname-input{
+        border: 1px solid #fff;
+        border-radius: 6px;
+        padding: 13px 10px;
+        width: 100%;
+        background: transparent;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+        width: 40%;
+        padding: 18px 0px;
+        gap: 40px;
+    }
+
+    .navbar-account{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .likes{
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .navbar-account p{
+        font-family: InterRegular;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    
+.anime{
+    width: 100%;
+    /* background-image: url(/src/components/images/Rectangle\ 27.svg); */
+    /* height: 400px; */
+    margin-top: 10px;
+    position: relative;
+    /* border: 2px solid green; */
+}
+
+.wallet{
+    width: 50%;
+    padding: 15px 40px;
+    position: absolute;
+    top: 35px;
+    margin-top: 80px;
+}
+
+.wallet h2{
+    font-family: InriaRegular;
+    font-size: 50px;
+    color: #F9F2F2;
+    font-weight: 600;
+    line-height: 70px;
+    /* letter-spacing: 2px; */
+}
+
+.anime-button{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.anime-contents{
+    width: 40%;
+    display: flex;
+    padding: 15px 10px;
+    border-radius: 10px;
+    gap: px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* border: 2px solid green; */
+}
+
+.anime-contents p{
+    font-family: InterRegular;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.check-square{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid blue; */
+}
+
+.check-square p{
+    font-family: InterRegular;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.square{
+    background-color: #833B43;
+    color: #DD4854;
+    border-radius: 5px;
+    font-size: 20px;
+    /* margin-top: 10px; */
+}
+
+.call{
+    background-color: #833B43;
+    color: #DD4854;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.phonecall{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid blue; */
+}
+
+.phonecall p{
+    font-family: InterRegular;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.jewelries-heading1{
+    /* background: #F8DADD; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px ;
+    padding: 10px 15px 10px 10px;
+    height: 100%;
+    gap: 15px;
+    /* min-height: 200px; */
+}
+
+
+
+.jewelries-container{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.jewelries-wrapper{
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    /* border: 2px solid red; */
+    margin-top: 45px;
+}
+
+
+.new{
+    display: flex;
+    gap: 50px;
+    /* border: 2px solid blue; */
+    padding: 20px 10px;
+    background: #F8DADD;
+}
+
+.jewelries-contents{
+    /* border: 2px solid green; */
+    width: 20%;
+    /* margin: 0px 0px; */
+}
+
+.jewelries-jewelries{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding:5px 20px;
+}
+
+.jewelries-jewelries h3{
+    font-family: InterBold;
+    font-size: 15px;
+    font-weight: 900;
+    color: #000;
+}
+
+.jewelries-down{
+    cursor: pointer;
+}
+
+.jewelries-heading{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px ;
+    padding: 10px 15px 10px 10px;
+    height: 100%;
+    gap: 15px;
+    /* border: 2px solid red; */
+    /* min-height: 200px; */
+}
+
+.ring-image{
+    width: 100%;
+    /* height: 100%; */
+    /* min-height: 200px; */
+}
+
+.jewlries-new-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.jewelries-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 10px;
+}
+
+.jewelries-text p{
+    font-family: InterRegular;
+    font-size: 12px;
+    font-weight: 600;
+    color: #635758;
+}
+
+.jewelries-text h4{
+    font-family: InterRegular;
+    font-size: 14px;
+    font-weight: 900;
+    color: #000;
+}
+
+
+.img-seven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+.image-seven{
+    width: 2.5%;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    background-image: url(/src/components/images/Rectangle\ 29.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px 60px 20px 40px;
+}
+
+.footer-container h3{
+    font-family: AntiquaRegular;
+    font-size: 16px;
+}
+
+.footer-wrapper{
+    margin-top: 50px;
+}
+.footer-about{
+    border-left: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+    padding: 0px 0px 0px 25px ;
+    border: none;
+}
+
+.footer-about h3{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    margin:0px 0px 8px 0px;
+    letter-spacing: 0.46px;
+}
+
+.footer-about p{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #C3C7C7;
+    margin: 1px 0px;
+}
+
+.footer-internatinal{
+    border-left:1px solid gray;
+    padding: 0px 0px 0px 15px;
+    border: none;
+}
+
+.footer-money{
+    display: block;
+}
+
+.footer-money h3{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    margin:0px 0px 8px 0px;
+    letter-spacing: 0.46px;
+}
+
+.footer-money p{
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #C3C7C7;
+    margin: 1px 0px;
+}
+
+.more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.more p{
+    font-family: InterRegular;
+    font-size: 15px;
+}
+
+.line1-seven{
+    width: 45%;
+}
+
+.footer-follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 50px 0px;
+}
+
+
+}
