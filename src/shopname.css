@@ -387,11 +387,10 @@ footer{
 
 @media (min-width:880px) {
     .shopname-container{
-        /* background-color: rgb(209,69,82); */
-        /* color: white; */
         width: 100%;
         max-width: 1440px;
-        font-family: RobotoRegular;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .shopname-wrapper{
@@ -401,7 +400,7 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         padding: 20px 40px;
         gap: 40px;
     }
